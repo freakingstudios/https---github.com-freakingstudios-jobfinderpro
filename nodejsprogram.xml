@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<questions>
+	<question>
+		<text>Question 1: What is the output of the following code?&lt;br&gt;console.log(typeof null);</text>
+		<answer>The output of the code is 'object'. This is a known behavior in JavaScript and Node.js. Although null is a primitive value representing the absence of an object, the typeof operator incorrectly returns 'object' for null.</answer>
+	</question>
+	<question>
+		<text>Question 2: Write a function to check if a number is prime in Node.js.</text>
+		<answer>Here's an example function to check if a number is prime in Node.js:&lt; br &gt; javascript\ nfunction isPrime(num) {
+	\
+	n
+	if (num &lt;= 1) {
+		\
+		n
+		return false;\
+		n
+	}\
+	n\ n
+	for (let i = 2; i &lt;= Math.sqrt(num); i++) {
+		\
+		n
+		if (num % i === 0) {
+			\
+			n
+			return false;\
+			n
+		}\
+		n
+	}\
+	n\ n
+	return true;\
+	n
+}\
+n\ nconsole.log(isPrime(17));// Output: true</answer>
+	</question>
+	<question>
+		<text>Question 3: What is the output of the following code?&lt;br&gt;console.log(0.1 + 0.2 === 0.3);</text>
+		<answer>The output of the code is false. This is because of the inherent precision limitations of floating-point numbers in JavaScript and Node.js. The expression 0.1 + 0.2 doesn't produce exactly 0.3 due to rounding errors, resulting in the comparison returning false. It is recommended to use libraries like decimal.js or appropriate techniques to handle precise decimal arithmetic in such cases.</answer>
+	</question>
+	<question>
+		<text>Question 4: Write a function to reverse a string in Node.js.</text>
+		<answer>Here's an example function to reverse a string in Node.js:&lt;br&gt;javascript\nfunction reverseString(str) {\n return str.split('').reverse().join('');\n}\n\nconsole.log(reverseString('Hello World!')); // Output: '!dlroW olleH'</answer>
+	</question>
+	<question>
+		<text>Question 5: What is the output of the following code?&lt;br&gt;console.log(typeof NaN);</text>
+		<answer>The output of the code is 'number'. Despite NaN standing for &quot;Not a Number&quot;, its typeof is 'number'. This is because NaN is considered a numeric data type in JavaScript and Node.js.</answer>
+	</question>
+	<question>
+		<text>Question 6: Write a function to find the maximum element in an array in Node.js.</text>
+		<answer>Here's an example function to find the maximum element in an array in Node.js:&lt;br&gt;javascript\nfunction findMax(arr) {\n return Math.max(...arr);\n}\n\nconsole.log(findMax([1, 5, 3, 9, 2])); // Output: 9</answer>
+	</question>
+	<question>
+		<text>Question 7: What is the output of the following code?&lt;br&gt;console.log(2 + '2');</text>
+		<answer>The output of the code is '22'. This is due to JavaScript's automatic type conversion. When the + operator encounters a string operand, it performs concatenation instead of addition. In this case, 2 is implicitly converted to a string, resulting in the concatenation of the two strings '2' and '2', producing '22'.</answer>
+	</question>
+	<question>
+		<text>Question 8: Write a function to remove duplicates from an array in Node.js.</text>
+		<answer>Here's an example function to remove duplicates from an array in Node.js:&lt;br&gt;javascript\nfunction removeDuplicates(arr) {\n return [...new Set(arr)];\n}\n\nconsole.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5])); // Output: [1, 2, 3, 4, 5]</answer>
+	</question>
+	<question>
+		<text>Question 9: What is the output of the following code?&lt;br&gt;console.log(3 + 2 + '7');</text>
+		<answer>The output of the code is '57'. This is also due to JavaScript's automatic type conversion. The addition operation 3 + 2 results in 5, which is then implicitly converted to a string. The subsequent concatenation with the string '7' produces '57'.</answer>
+	</question>
+	<question>
+		<text>Question 10: Write a function to find the factorial of a number in Node.js.</text>
+		<answer>Here's an example function to find the factorial of a number in Node.js:&lt;br&gt;```javascript\nfunction factorial(num) {\n if (num === 0</answer>
+	</question>
+	<question>
+		<text>Question 11: What is the output of the following code?&lt;br&gt;console.log(&quot;2&quot; * &quot;2&quot;);</text>
+		<answer>The output of the code is 4. JavaScript automatically performs type coercion when encountering operators like *. In this case, the strings '2' are converted to numbers, and the multiplication operation is performed, resulting in the numeric value 4.</answer>
+	</question>
+	<question>
+		<text>Question 12: Write a function to check if a string is a palindrome in Node.js.</text>
+		<answer>Here's an example function to check if a string is a palindrome in Node.js:&lt;br&gt;javascript\nfunction isPalindrome(str) {\n const reversed = str.split('').reverse().join('');\n return str === reversed;\n}\n\nconsole.log(isPalindrome('madam')); // Output: true</answer>
+	</question>
+	<question>
+		<text>Question 13: What is the output of the following code?&lt;br&gt;console.log(&quot;2&quot; + 2);</text>
+		<answer>The output of the code is '22'. As mentioned earlier, JavaScript performs concatenation when the + operator encounters a string operand. In this case, the number 2 is implicitly converted to a string, resulting in the concatenation of the two strings '2' and '2', producing '22'.</answer>
+	</question>
+	<question>
+		<text>Question 14: Write a function to sort an array of numbers in ascending order in Node.js.</text>
+		<answer>Here's an example function to sort an array of numbers in ascending order in Node.js:&lt;br&gt;javascript\nfunction sortAscending(arr) {\n return arr.sort((a, b) =&gt; a - b);\n}\n\nconsole.log(sortAscending([5, 2, 8, 3, 1])); // Output: [1, 2, 3, 5, 8]</answer>
+	</question>
+	<question>
+		<text>Question 15: What is the output of the following code?&lt;br&gt;console.log(&quot;2&quot; - 2);</text>
+		<answer>The output of the code is 0. JavaScript performs automatic type coercion when encountering the - operator. In this case, the string '2' is converted to a number, and the subtraction operation is performed, resulting in the numeric value 0.</answer>
+	</question>
+	<question>
+		<text>Question 16: Write a function to find the average of an array of numbers in Node.js.</text>
+		<answer>Here's an example function to find the average of an array of numbers in Node.js:&lt;br&gt;javascript\nfunction findAverage(arr) {\n const sum = arr.reduce((acc, curr) =&gt; acc + curr, 0);\n return sum / arr.length;\n}\n\nconsole.log(findAverage([2, 4, 6, 8, 10])); // Output: 6</answer>
+	</question>
+	<question>
+		<text>Question 17: What is the output of the following code?&lt;br&gt;console.log(typeof undefined);</text>
+		<answer>The output of the code is 'undefined'. The typeof operator correctly returns 'undefined' for the undefined value, indicating that it is an undefined type in JavaScript and Node.js.</answer>
+	</question>
+	<question>
+		<text>Question 18: Write a function to check if a string is an anagram in Node.js.</text>
+		<answer>Here's an example function to check if a string is an anagram in Node.js:&lt;br&gt;javascript\nfunction isAnagram(str1, str2) {\n const sortedStr1 = str1.split('').sort().join('');\n const sortedStr2 = str2.split('').sort().join('');\n return sortedStr1 === sortedStr2;\n}\n\nconsole.log(isAnagram('listen', 'silent')); // Output: true</answer>
+	</question>
+	<question>
+		<text>Question 19: What is the output of the following code?&lt;br&gt;console.log(typeof Infinity);</text>
+		<answer>The output of the code is 'number'. Infinity is a special value in JavaScript and Node.js, representing mathematical infinity. It is considered a numeric data type, and its typeof is 'number'.</answer>
+	</question>
+	<question>
+		<text>Question 20: Write a function to find the second-largest element in an array in Node.js.</text>
+		<answer>Here's an example function to find the second-largest element in an array in Node.js:&lt;br&gt;javascript\nfunction findSecondLargest(arr) {\n const sorted = arr.sort((a, b) =&gt; b - a);\n return sorted[1];\n}\n\nconsole.log(findSecondLargest([5, 8, 2, 9, 3])); // Output: 8</answer>
+	</question>
+</questions>

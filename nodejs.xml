@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<questions>
+	<question>
+		<text>Question 1: What is Node.js?</text>
+		<answer>Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to build server-side and networking applications. It uses an event-driven, non-blocking I/O model, making it lightweight and efficient for handling concurrent connections and high traffic.</answer>
+	</question>
+	<question>
+		<text>Question 2: What is npm?</text>
+		<answer>npm stands for Node Package Manager. It is the default package manager for Node.js and is used to install, manage, and share packages or libraries of reusable JavaScript code.</answer>
+	</question>
+	<question>
+		<text>Question 3: What is the purpose of package.json in Node.js?</text>
+		<answer>The package.json file contains metadata about the Node.js project, including its dependencies, scripts, version, author, and other relevant information. It is used by npm to manage project dependencies, install packages, and run scripts defined in the project.</answer>
+	</question>
+	<question>
+		<text>Question 4: What is the difference between global installation and local installation of packages?</text>
+		<answer>- Global installation installs packages globally on the system, making them accessible to all projects. These packages are typically used for command-line tools or utilities.&lt;br&gt;- Local installation installs packages locally within a specific project. These packages are specified in the project's package.json file and are typically project-specific dependencies. They are not accessible outside of the project.</answer>
+	</question>
+	<question>
+		<text>Question 5: How do you import a module in Node.js?</text>
+		<answer>In Node.js, you can import a module using the require function. For example, to import the http module, you would write const http = require('http');. This allows you to use the functionality provided by the imported module in your Node.js application.</answer>
+	</question>
+	<question>
+		<text>Question 6: What is callback hell?</text>
+		<answer>Callback hell refers to the situation when multiple asynchronous operations are nested inside each other, resulting in deeply nested callback functions. This can make code difficult to read, maintain, and debug. It can be mitigated by using techniques such as modularization, using named functions, or adopting libraries that support promises or async/await syntax.</answer>
+	</question>
+	<question>
+		<text>Question 7: What is the role of the module.exports object in Node.js?</text>
+		<answer>The module.exports object is a special object in Node.js that is used to define the public interface of a module. It allows you to export functions, objects, or values from a module, making them accessible to other modules that require or import them using the require function. It helps in creating a modular and reusable code structure in Node.js applications.</answer>
+	</question>
+	<question>
+		<text>Question 8: What are Streams in Node.js?</text>
+		<answer>Streams in Node.js provide an efficient way to handle data flow, especially when dealing with large amounts of data. They are used to read or write data in a continuous flow, chunk by chunk, without needing to load the entire data into memory. Streams can be readable, writable, or both, and they enable efficient handling of file system operations, network communication, and other I/O operations.</answer>
+	</question>
+	<question>
+		<text>Question 9: What is the difference between setImmediate() and setTimeout() in Node.js?</text>
+		<answer>- setImmediate() is used to schedule a callback function to be executed in the next iteration of the event loop, immediately after the I/O events. It has a higher priority than setTimeout().&lt;br&gt;- setTimeout() is used to schedule a callback function to be executed after a specified delay, measured in milliseconds. It allows delaying the execution of a function for a certain period of time.</answer>
+	</question>
+	<question>
+		<text>Question 10: What is the purpose of the exports object in Node.js?</text>
+		<answer>The exports object in Node.js is a shorthand notation for module.exports. It is used to define the public interface of a module and export functions, objects, or values from a module. However, it cannot be reassigned completely like module.exports, so it is usually used to add properties or methods to the existing module.exports object.</answer>
+	</question>
+	<question>
+		<text>Question 11: What is the Event Loop in Node.js?</text>
+		<answer>The Event Loop in Node.js is a mechanism that allows Node.js to handle multiple asynchronous operations efficiently. It continuously checks for any pending callbacks or events in the event queue and executes them in a non-blocking manner. The Event Loop enables Node.js to handle concurrent requests and I/O operations without getting blocked, resulting in better performance and scalability.</answer>
+	</question>
+	<question>
+		<text>Question 12: What is the purpose of the Buffer class in Node.js?</text>
+		<answer>The Buffer class in Node.js is used to handle binary data, particularly when working with I/O operations, such as reading from or writing to files, network communication, or handling raw data. It represents a fixed-sized chunk of memory that can store and manipulate binary data in various formats, such as strings, integers, floats, and more. The Buffer class provides methods for encoding, decoding, and transforming data, making it a fundamental component for working with binary data in Node.js.</answer>
+	</question>
+	<question>
+		<text>Question 13: What are Promises in Node.js?</text>
+		<answer>Promises in Node.js are a way to handle asynchronous operations and manage the flow of asynchronous code. A Promise represents the eventual completion or failure of an asynchronous operation and allows chaining multiple asynchronous operations together. Promises provide cleaner and more readable code compared to callback-based approaches, and they help avoid callback hell. Promises can be resolved with a value or rejected with an error, enabling proper error handling and control flow in asynchronous code.</answer>
+	</question>
+	<question>
+		<text>Question 14: What is the purpose of the async/await feature in Node.js?</text>
+		<answer>The async/await feature in Node.js provides a more readable and synchronous-like way to write asynchronous code. It allows you to write asynchronous operations using a synchronous style, making the code easier to understand and maintain. By using the async keyword before a function declaration and the await keyword before an asynchronous operation, you can await the completion of the operation before proceeding, without blocking the event loop. async/await relies on Promises and provides a more concise and intuitive syntax for handling asynchronous code in Node.js.</answer>
+	</question>
+	<question>
+		<text>Question 15: What is the purpose of the __dirname and __filename variables in Node.js?</text>
+		<answer>The __dirname variable in Node.js represents the absolute path of the directory containing the currently executing file. It provides the full path of the directory, including the drive letter (in Windows) or root directory (in Unix-based systems). On the other hand, the __filename variable represents the absolute path of the currently executing file. Both variables are helpful when working with file paths or requiring files based on their absolute paths. They are specific to each module and are not available in the global scope.</answer>
+	</question>
+	<question>
+		<text>Question 16: How can you handle errors in Node.js?</text>
+		<answer>In Node.js, errors can be handled using try-catch blocks for synchronous code or using the error-first callback pattern for asynchronous code. For promise-based asynchronous operations, you can use the .catch() method or the try-catch block inside an async function when using async/await. Additionally, you can use middleware functions, such as error-handling middleware, to catch and handle errors at a global level in an Express.js application. Proper error handling helps in identifying and resolving issues, improving the reliability of the Node.js application.</answer>
+	</question>
+	<question>
+		<text>Question 17: What is Express.js?</text>
+		<answer>Express.js is a popular web application framework for Node.js. It provides a set of features and tools for building web applications and APIs, including routing, middleware support, template engines, session management, and more. Express.js simplifies the development process by providing a minimalist and flexible structure, allowing developers to build scalable and modular web applications in Node.js.</answer>
+	</question>
+	<question>
+		<text>Question 18: What is middleware in Express.js?</text>
+		<answer>Middleware in Express.js refers to functions that have access to the request (req), response (res), and the next middleware function in the request-response cycle. Middleware functions can be used to perform tasks such as logging, authentication, handling errors, parsing request bodies, and more. They can be added to specific routes or used globally to handle requests across the application. Middleware functions help in modularizing and reusing code in Express.js applications.</answer>
+	</question>
+	<question>
+		<text>Question 19: How can you handle form data in Express.js?</text>
+		<answer>In Express.js, you can handle form data using middleware such as body-parser or the built-in express.urlencoded() middleware. These middleware parse the form data and make it available in the req.body object. You can then access the form fields and their values from the req.body object to process the form data. Additionally, you can handle file uploads using middleware such as multer.</answer>
+	</question>
+	<question>
+		<text>Question 20: How can you handle routing in Express.js?</text>
+		<answer>Routing in Express.js involves defining routes for different URL paths and handling them with corresponding callback functions. You can define routes using the app.get(), app.post(), app.put(), app.delete(), and other HTTP methods provided by Express.js. These methods take the URL path and the callback function as arguments. The callback function can handle the request and response for that route. Express.js also allows you to modularize routes using Router to separate and organize your application's routes.</answer>
+	</question>
+</questions>
