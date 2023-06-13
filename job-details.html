@@ -352,7 +352,7 @@ Post A Job <i class="ri-briefcase-2-line"></i>
 <div class="inner-banner">
 <div class="container">
  <div class="inner-title text-center">
-<h3>Job Details</h3>
+<h3>Python</h3>
 <ul>
 <li>
 <a href="index.html">Home</a>
@@ -501,12 +501,55 @@ Post A Job <i class="ri-briefcase-2-line"></i>
 </div>
 <div class="col-lg-8">
 <div class="job-details-content">
+
+
+<script>
+
+ // Function to load the XML file
+function loadXMLFile(file, callback) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState === 4 && this.status === 200) {
+        callback(this.responseXML);
+      }
+    };
+    xhttp.open("GET", file, true);
+    xhttp.send();
+  }
+  
+  // Function to display questions and answers
+  function displayQuestions(xml) {
+    var questions = xml.getElementsByTagName("question");
+    var container = document.getElementById("questions-container");
+  
+    for (var i = 0; i < questions.length; i++) {
+      var question = questions[i].getElementsByTagName("text")[0].textContent;
+      var answer = questions[i].getElementsByTagName("answer")[0].textContent;
+  
+      var questionElement = document.createElement("div");
+      questionElement.innerHTML = "<h2>" + question + "</h2>" + "<p>" + answer + "</p>";
+  
+      container.appendChild(questionElement);
+    }
+  }
+  
+  // Load the XML file and display the questions and answers
+  loadXMLFile("questions.xml", displayQuestions);
+  
+
+
+    </script>
+
+
 <div class="content mb-30">
+    <div id="questions-container"></div>
 <h3>Job Description</h3>
 <div class="bar"></div>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim a erat sit vulputate elementum orci. Risus nec viverra ornare venenatis proin ac varius tristique ut. Vitae egestas tellus amet nulla cursus.ands Pellentesque placerat maecenas egestas ullamcorper sed nunc. Vitae egestas tellus amet nulla something loss Pellentesque placerat maecenas egestas ullamcorper sed nunc.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim a erat sit vulputate elementum orci. Risus nec viverra ornare venenatis proin ac varius tristique ut. Vitae egestas tellus amet nulla cursus in that. Pellentesque placerat maecenas egestas ullamcorper sed sarinto.</p>
 </div>
+
+
 <div class="job-details-list">
 <h3>Key Responsibilities</h3>
 <div class="bar"></div>

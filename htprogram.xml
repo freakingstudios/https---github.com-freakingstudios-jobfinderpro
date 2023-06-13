@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<questions>
+	<question>
+		<text>1. How do you create a button with a click event in HTML?</text>
+		<answer>&lt;button onclick=&quot;myFunction()&quot;&gt;Click me&lt;/button&gt;</answer>
+	</question>
+	<question>
+		<text>2. How do you change the text content of an HTML element using JavaScript?</text>
+		<answer>document.getElementById(&quot;myElement&quot;).innerHTML = &quot;New text&quot;;</answer>
+	</question>
+	<question>
+		<text>3. How do you create a responsive image that scales with the size of the container?</text>
+		<answer>&lt;img src=&quot;image.jpg&quot; alt=&quot;Image&quot; style=&quot;max-width: 100%; height: auto;&quot;&gt;</answer>
+	</question>
+	<question>
+		<text>4. How do you set a default value for an input field in HTML?</text>
+		<answer>&lt;input type=&quot;text&quot; value=&quot;Default value&quot;&gt;</answer>
+	</question>
+	<question>
+		<text>5. How do you redirect a webpage to another URL in HTML?</text>
+		<answer>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0; URL=https://example.com&quot;&gt;</answer>
+	</question>
+	<question>
+		<text>6. How do you create a tooltip for an element in HTML?</text>
+		<answer>&lt;span class=&quot;tooltip&quot;&gt;Hover over me&lt;span class=&quot;tooltiptext&quot;&gt;Tooltip text&lt;/span&gt;&lt;/span&gt;</answer>
+	</question>
+	<question>
+		<text>7. How do you disable an input field in HTML?</text>
+		<answer>&lt;input type=&quot;text&quot; disabled&gt;</answer>
+	</question>
+	<question>
+		<text>8. How do you make an HTML element draggable using JavaScript?</text>
+		<answer>&lt;div draggable=&quot;true&quot;&gt;Drag me&lt;/div&gt;</answer>
+	</question>
+	<question>
+		<text>9. How do you create a progress bar in HTML?</text>
+		<answer>&lt;progress value=&quot;50&quot; max=&quot;100&quot;&gt;&lt;/progress&gt;</answer>
+	</question>
+	<question>
+		<text>10. How do you create a responsive two-column layout in HTML?</text>
+		<answer>Use CSS Grid or CSS Flexbox to create a two-column layout.</answer>
+	</question>
+	<question>
+		<text>11. How do you create a responsive video that adjusts to different screen sizes?</text>
+		<answer>Use CSS techniques like setting the max-width property of the video element to 100%.</answer>
+	</question>
+	<question>
+		<text>12. How do you validate an HTML form using JavaScript?</text>
+		<answer>Attach a JavaScript function to the form's onsubmit event and validate the form inputs within that function.</answer>
+	</question>
+	<question>
+		<text>13. How do you create a countdown timer in HTML using JavaScript?</text>
+		<answer>Use JavaScript to update the timer element at regular intervals based on the desired countdown duration.</answer>
+	</question>
+	<question>
+		<text>14. How do you create a responsive navigation menu that collapses into a hamburger menu on smaller screens?</text>
+		<answer>Use CSS media queries and JavaScript to toggle a CSS class that hides or shows the menu based on the screen size.</answer>
+	</question>
+	<question>
+		<text>15. How do you retrieve and display data from an API in HTML using JavaScript?</text>
+		<answer>Use JavaScript's fetch() function to make a request to the API and then manipulate the retrieved data to display it in the HTML document.</answer>
+	</question>
+</questions>

@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<questions>
+	<question>
+		<text>1. Program to find the factorial of a number: 
+</text>
+		<answer>def factorial(n): 
+if n == 0: 
+return 1 
+else: 
+return n * factorial(n - 1) 
+
+number = int(input(&quot;Enter a number: &quot;)) 
+print(&quot;Factorial:&quot;, factorial(number))</answer>
+	</question>
+	<question>
+		<text>2. Program to check if a number is prime: 
+</text>
+		<answer>def is_prime(n): 
+if n &lt; 2: 
+return False 
+for i in range(2, int(n ** 0.5) + 1): 
+if n % i == 0: 
+return False 
+return True 
+
+number = int(input(&quot;Enter a number: &quot;)) 
+if is_prime(number): 
+print(number, &quot;is prime.&quot;) 
+else: 
+print(number, &quot;is not prime.&quot;)</answer>
+	</question>
+	<question>
+		<text>3. Program to reverse a string: 
+</text>
+		<answer>def reverse_string(string): 
+return string[::-1] 
+
+input_string = input(&quot;Enter a string: &quot;) 
+print(&quot;Reversed string:&quot;, reverse_string(input_string))</answer>
+	</question>
+	<question>
+		<text>4. Program to check if a string is a palindrome:</text>
+		<answer>def is_palindrome(string): 
+return string == string[::-1] 
+
+input_string = input(&quot;Enter a string: &quot;) 
+if is_palindrome(input_string): 
+print(&quot;Palindrome.&quot;) 
+else: 
+print(&quot;Not a palindrome.&quot;)</answer>
+	</question>
+	<question>
+		<text>5. Program to find the Fibonacci series: 
+</text>
+		<answer>def fibonacci(n): 
+series = [0, 1] 
+while len(series) &lt; n: 
+series.append(series[-1] + series[-2]) 
+return series 
+
+number = int(input(&quot;Enter the number of terms: &quot;)) 
+print(&quot;Fibonacci series:&quot;, fibonacci(number))</answer>
+	</question>
+	<question>
+		<text>6. Program to find the sum of digits of a number:
+</text>
+		<answer>def sum_of_digits(n): 
+total = 0 
+while n &gt; 0: 
+total += n % 10 
+n //= 10 
+return total 
+
+number = int(input(&quot;Enter a number: &quot;)) 
+print(&quot;Sum of digits:&quot;, sum_of_digits(number))</answer>
+	</question>
+	<question>
+		<text>7. Program to find the largest element in a list: +A+A8</text>
+		<answer>def find_largest_element(lst): 
+return max(lst) 
+
+numbers = input(&quot;Enter numbers separated by spaces: &quot;).split() 
+numbers = [int(num) for num in numbers] 
+print(&quot;Largest element:&quot;, find_largest_element(numbers))</answer>
+	</question>
+	<question>
+		<text>8. Program to check if two strings are anagrams: 
+</text>
+		<answer>def is_anagram(str1, str2): 
+return sorted(str1) == sorted(str2) 
+
+string1 = input(&quot;Enter the first string: &quot;) 
+string2 = input(&quot;Enter the second string: &quot;) 
+if is_anagram(string1, string2): 
+print(&quot;Anagrams.&quot;) 
+else: 
+print(&quot;Not anagrams.&quot;)</answer>
+	</question>
+	<question>
+		<text>9. Program to find the common elements between two lists:</text>
+		<answer>def find_common_elements(list1, list2): 
+return list(set(list1) &amp; set(list2)) 
+
+list1 = input(&quot;Enter elements of the first list separated by spaces: &quot;).split() 
+list2 = input(&quot;Enter elements of the second list separated by spaces: &quot;).split() 
+common_elements = find_common_elements(list1, list2) 
+print(&quot;Common elements:&quot;, common_elements)</answer>
+	</question>
+	<question>
+		<text>10. Program to find the factorial of a number using recursion: 
+</text>
+		<answer>def factorial(n): 
+if n == 0: 
+return 1 
+else: 
+return n * factorial(n - 1) 
+
+number = int(input(&quot;Enter a number: &quot;)) 
+print(&quot;Factorial:&quot;, factorial(number))</answer>
+	</question>
+</questions>

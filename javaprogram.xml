@@ -1,0 +1,259 @@
+<questions>
+	<question>
+		<text>1. Program to find the factorial of a number.</text>
+		<answer>import java.util.Scanner; 
+
+public class Factorial { 
+public static void main(String[] args) { 
+Scanner scanner = new Scanner(System.in); 
+System.out.print(&quot;Enter a number: &quot;); 
+int num = scanner.nextInt(); 
+int factorial = 1; 
+
+for (int i = 1; i &lt;= num; i++) { 
+factorial *= i; 
+} 
+
+System.out.println(&quot;Factorial of &quot; + num + &quot; is: &quot; + factorial); 
+} 
+}</answer>
+	</question>
+	<question>
+		<text>2.Program to check if a number is prime.</text>
+		<answer>import java.util.Scanner; 
+
+public class PrimeNumber { 
+public static void main(String[] args) { 
+Scanner scanner = new Scanner(System.in); 
+System.out.print(&quot;Enter a number: &quot;); 
+int num = scanner.nextInt(); 
+boolean isPrime = true; 
+
+for (int i = 2; i &lt;= Math.sqrt(num); i++) { 
+if (num % i == 0) { 
+isPrime = false; 
+break; 
+} 
+} 
+
+if (isPrime) 
+System.out.println(num + &quot; is a prime number.&quot;); 
+else 
+System.out.println(num + &quot; is not a prime number.&quot;); 
+} 
+}</answer>
+	</question>
+	<question>
+		<text>3.Program to reverse a string.</text>
+		<answer>import java.util.Scanner; 
+
+public class ReverseString { 
+public static void main(String[] args) { 
+Scanner scanner = new Scanner(System.in); 
+System.out.print(&quot;Enter a string: &quot;); 
+String input = scanner.nextLine(); 
+String reversed = &quot;&quot;; 
+
+for (int i = input.length() - 1; i &gt;= 0; i--) { 
+reversed += input.charAt(i); 
+} 
+
+System.out.println(&quot;Reversed string: &quot; + reversed); 
+} 
+}</answer>
+	</question>
+	<question>
+		<text>4. Program to find the largest element in an array.</text>
+		<answer>import java.util.Scanner; 
+
+public class LargestElement { 
+public static void main(String[] args) { 
+Scanner scanner = new Scanner(System.in); 
+System.out.print(&quot;Enter the size of the array: &quot;); 
+int size = scanner.nextInt(); 
+int[] arr = new int[size]; 
+
+System.out.println(&quot;Enter the elements of the array:&quot;); 
+for (int i = 0; i &lt; size; i++) { 
+arr[i] = scanner.nextInt(); 
+} 
+
+int largest = arr[0]; 
+for (int i = 1; i &lt; size; i++) { 
+if (arr[i] &gt; largest) { 
+largest = arr[i]; 
+} 
+} 
+
+System.out.println(&quot;Largest element in the array: &quot; + largest); 
+} 
+}</answer>
+	</question>
+	<question>
+		<text>5. Program to check if two strings are anagrams.</text>
+		<answer>import java.util.Arrays; 
+import java.util.Scanner; 
+
+public class AnagramCheck { 
+public static void main(String[] args) { 
+Scanner scanner = new Scanner(System.in); 
+System.out.print(&quot;Enter the first string: &quot;); 
+String str1 = scanner.nextLine(); 
+System.out.print(&quot;Enter the second string: &quot;); 
+String str2 = scanner.nextLine(); 
+
+boolean isAnagram = true; 
+
+if (str1.length() != str2.length()) { 
+isAnagram = false; 
+} else { 
+char[] charArr1 = str1.toCharArray(); 
+char[] charArr2 = str2.toCharArray(); 
+
+Arrays.sort(charArr1); 
+Arrays.sort(charArr2); 
+
+isAnagram = Arrays.equals(charArr1, charArr2); 
+} 
+
+if (isAnagram) 
+System.out.println(&quot;The strings are anagrams.&quot;); 
+else 
+System.out.println(&quot;The strings are not anagrams.&quot;); 
+} 
+}</answer>
+	</question>
+	<question>
+		<text>6. Program to find the sum of digits of a number. 
+</text>
+		<answer>import java.util.Scanner; 
+
+public class SumOfDigits { 
+public static void main(String[] args) { 
+Scanner scanner = new Scanner(System.in); 
+System.out.print(&quot;Enter a number: &quot;); 
+int num = scanner.nextInt(); 
+int sum = 0; 
+
+while (num &gt; 0) { 
+sum += num % 10; 
+num /= 10; 
+} 
+
+System.out.println(&quot;Sum of digits: &quot; + sum); 
+} 
+} 
+</answer>
+	</question>
+	<question>
+		<text>7. Program to check if a string is a palindrome.</text>
+		<answer>import java.util.Scanner; 
+
+public class PalindromeCheck { 
+public static void main(String[] args) { 
+Scanner scanner = new Scanner(System.in); 
+System.out.print(&quot;Enter a string: &quot;); 
+String input = scanner.nextLine(); 
+String reversed = &quot;&quot;; 
+
+for (int i = input.length() - 1; i &gt;= 0; i--) { 
+reversed += input.charAt(i); 
+} 
+
+if (input.equalsIgnoreCase(reversed)) 
+System.out.println(&quot;The string is a palindrome.&quot;); 
+else 
+System.out.println(&quot;The string is not a palindrome.&quot;); 
+} 
+}</answer>
+	</question>
+	<question>
+		<text>8. Program to find the Fibonacci series up to a given number of terms. 
+</text>
+		<answer>import java.util.Scanner; 
+
+public class FibonacciSeries { 
+public static void main(String[] args) { 
+Scanner scanner = new Scanner(System.in); 
+System.out.print(&quot;Enter the number of terms: &quot;); 
+int numTerms = scanner.nextInt(); 
+
+int first = 0, second = 1; 
+System.out.print(&quot;Fibonacci Series: &quot; + first + &quot;, &quot; + second); 
+
+for (int i = 3; i &lt;= numTerms; i++) { 
+int next = first + second; 
+System.out.print(&quot;, &quot; + next); 
+first = second; 
+second = next; 
+} 
+} 
+}</answer>
+	</question>
+	<question>
+		<text>9. Program to find the sum of elements in a 2D array. 
+</text>
+		<answer>import java.util.Scanner; 
+
+public class ArraySum { 
+public static void main(String[] args) { 
+Scanner scanner = new Scanner(System.in); 
+System.out.print(&quot;Enter the number of rows: &quot;); 
+int rows = scanner.nextInt(); 
+System.out.print(&quot;Enter the number of columns: &quot;); 
+int columns = scanner.nextInt(); 
+
+int[][] matrix = new int[rows][columns]; 
+
+System.out.println(&quot;Enter the elements of the array:&quot;); 
+for (int i = 0; i &lt; rows; i++) { 
+for (int j = 0; j &lt; columns; j++) { 
+matrix[i][j] = scanner.nextInt(); 
+} 
+} 
+
+int sum = 0; 
+for (int i = 0; i &lt; rows; i++) { 
+for (int j = 0; j &lt; columns; j++) { 
+sum += matrix[i][j]; 
+} 
+} 
+
+System.out.println(&quot;Sum of elements: &quot; + sum); 
+} 
+}</answer>
+	</question>
+	<question>
+		<text>10. Program to find the second largest element in an array.
+</text>
+		<answer>import java.util.Scanner; 
+
+public class SecondLargestElement { 
+public static void main(String[] args) { 
+Scanner scanner = new Scanner(System.in); 
+System.out.print(&quot;Enter the size of the array: &quot;); 
+int size = scanner.nextInt(); 
+int[] arr = new int[size]; 
+
+System.out.println(&quot;Enter the elements of the array:&quot;); 
+for (int i = 0; i &lt; size; i++) { 
+arr[i] = scanner.nextInt(); 
+} 
+
+int largest = Integer.MIN_VALUE; 
+int secondLargest = Integer.MIN_VALUE; 
+
+for (int i = 0; i &lt; size; i++) { 
+if (arr[i] &gt; largest) { 
+secondLargest = largest; 
+largest = arr[i]; 
+} else if (arr[i] &gt; secondLargest &amp;&amp; arr[i] != largest) { 
+secondLargest = arr[i]; 
+} 
+} 
+
+System.out.println(&quot;Second largest element in the array: &quot; + secondLargest); 
+} 
+}</answer>
+	</question>
+</questions>

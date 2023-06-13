@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<questions>
+	<question>
+		<text>1. What does HTML stand for?</text>
+		<answer>Hypertext Markup Language</answer>
+	</question>
+	<question>
+		<text>2. What is the purpose of HTML?</text>
+		<answer>To structure and present content on the web</answer>
+	</question>
+	<question>
+		<text>3. What are the basic HTML tags?</text>
+		<answer>&lt;html&gt;, &lt;head&gt;, &lt;body&gt;</answer>
+	</question>
+	<question>
+		<text>4. What is the difference between inline and block elements?</text>
+		<answer>Inline elements don't start on a new line, while block elements do</answer>
+	</question>
+	<question>
+		<text>5. What is the role of the &lt;div&gt; tag?</text>
+		<answer>To group and style elements together</answer>
+	</question>
+	<question>
+		<text>6. What is the purpose of the &lt;img&gt; tag?</text>
+		<answer>To insert an image</answer>
+	</question>
+	<question>
+		<text>7. How do you create a hyperlink in HTML?</text>
+		<answer>Using the &lt;a&gt; tag with the href attribute</answer>
+	</question>
+	<question>
+		<text>8. What is the purpose of the &lt;table&gt; tag?</text>
+		<answer>To create a tabular data structure</answer>
+	</question>
+	<question>
+		<text>9. How do you add comments in HTML?</text>
+		<answer>Using the &lt;!-- --&gt; syntax</answer>
+	</question>
+	<question>
+		<text>10. What is the role of the &lt;form&gt; tag?</text>
+		<answer>To create an interactive input form</answer>
+	</question>
+	<question>
+		<text>11. How do you create a bullet list in HTML?</text>
+		<answer>Using the &lt;ul&gt; tag with &lt;li&gt; items</answer>
+	</question>
+	<question>
+		<text>12. What is the purpose of the &lt;head&gt; tag?</text>
+		<answer>To contain metadata about the HTML document</answer>
+	</question>
+	<question>
+		<text>13. How do you insert a line break in HTML?</text>
+		<answer>Using the &lt;br&gt; tag</answer>
+	</question>
+	<question>
+		<text>14. What is the role of the &lt;input&gt; tag?</text>
+		<answer>To create input fields or buttons</answer>
+	</question>
+	<question>
+		<text>15. What does the alt attribute in the &lt;img&gt; tag do?</text>
+		<answer>Provides alternative text for the image</answer>
+	</question>
+	<question>
+		<text>16. How do you set the background color of an HTML element?</text>
+		<answer>Using the background-color CSS property</answer>
+	</question>
+	<question>
+		<text>17. What is the purpose of the &lt;span&gt; tag?</text>
+		<answer>To apply styles to inline elements</answer>
+	</question>
+	<question>
+		<text>18. How do you create a numbered list in HTML?</text>
+		<answer>Using the &lt;ol&gt; tag with &lt;li&gt; items</answer>
+	</question>
+	<question>
+		<text>19. What is the role of the &lt;meta&gt; tag?</text>
+		<answer>To provide metadata about the HTML document</answer>
+	</question>
+	<question>
+		<text>20. How do you define a CSS stylesheet in HTML?</text>
+		<answer>Using the &lt;link&gt; tag with the rel and href attributes</answer>
+	</question>
+	<question>
+		<text>21. What are semantic elements in HTML5?</text>
+		<answer>Semantic elements provide meaning to the structure of a web page, such as &lt;header&gt;, &lt;nav&gt;, &lt;article&gt;, &lt;section&gt;, etc.</answer>
+	</question>
+	<question>
+		<text>22. What is the purpose of the canvas tag?</text>
+		<answer>The &lt;canvas&gt; tag is used to draw graphics, animations, and interactive elements using JavaScript.</answer>
+	</question>
+	<question>
+		<text>23. How do you embed a video in HTML?</text>
+		<answer>You can use the &lt;video&gt; tag along with the src attribute to specify the video source and include optional attributes such as controls and autoplay.</answer>
+	</question>
+	<question>
+		<text>24. What is the purpose of the &lt;audio&gt; tag?</text>
+		<answer>The &lt;audio&gt; tag is used to embed audio content on a webpage, allowing playback of audio files.</answer>
+	</question>
+	<question>
+		<text>25. How do you create a responsive design in HTML?</text>
+		<answer>You can use CSS media queries and fluid layouts to create responsive designs that adapt to different screen sizes and devices.</answer>
+	</question>
+	<question>
+		<text>26. What is the purpose of the iframe tag?</text>
+		<answer>The &lt;iframe&gt; tag is used to embed another HTML document within the current document. It is commonly used for embedding maps, videos, or other external content.</answer>
+	</question>
+	<question>
+		<text>27. How do you validate HTML code?</text>
+		<answer>HTML can be validated using online validation tools or through the use of HTML validation services and libraries.</answer>
+	</question>
+	<question>
+		<text>28. What are data attributes in HTML?</text>
+		<answer>Data attributes allow you to store custom data within HTML elements, which can be accessed and manipulated using JavaScript. They follow the data-* naming convention.</answer>
+	</question>
+	<question>
+		<text>29. How do you create a responsive image in HTML?</text>
+		<answer>You can use CSS techniques such as setting the max-width property to 100% to make an image responsive and adapt to the container's size.</answer>
+	</question>
+	<question>
+		<text>30. What is the purpose of the &lt;progress&gt; tag?</text>
+		<answer>The &lt;progress&gt; tag is used to represent the progress of a task or the completion percentage of an operation.</answer>
+	</question>
+	<question>
+		<text>31. What is the purpose of the &lt;aside&gt; tag?</text>
+		<answer>The &lt;aside&gt; tag is used to mark content that is tangentially related to the main content, such as sidebars or pull quotes.</answer>
+	</question>
+	<question>
+		<text>32. How do you include custom fonts in HTML?</text>
+		<answer>You can use the @font-face rule in CSS to include custom fonts by specifying the font file URL and assigning it a font family name.</answer>
+	</question>
+	<question>
+		<text>33. What is the purpose of the &lt;details&gt; and &lt;summary&gt; tags?</text>
+		<answer>The &lt;details&gt; and &lt;summary&gt; tags are used to create collapsible content sections, where the summary acts as a clickable header for the details.</answer>
+	</question>
+	<question>
+		<text>34. What is the role of the &lt;output&gt; tag?</text>
+		<answer>The &lt;output&gt; tag is used to display the result of a calculation or the output of a script.</answer>
+	</question>
+	<question>
+		<text>35. How do you create a sticky/fixed header in HTML?</text>
+		<answer>You can use CSS positioning and the position: fixed property to create a sticky header that remains fixed at the top of the page as the user scrolls.</answer>
+	</question>
+	<question>
+		<text>36. What is the purpose of the &lt;meter&gt; tag?</text>
+		<answer>The &lt;meter&gt; tag is used to represent a measurement within a predefined range, such as disk usage or battery level.</answer>
+	</question>
+	<question>
+		<text>37. What is the purpose of the &lt;figure&gt; and &lt;figcaption&gt; tags?</text>
+		<answer>The &lt;figure&gt; and &lt;figcaption&gt; tags are used to group and caption self-contained content, such as images, illustrations, or diagrams.</answer>
+	</question>
+	<question>
+		<text>38. What is the purpose of the &lt;mark&gt; tag?</text>
+		<answer>The &lt;mark&gt; tag is used to highlight or mark specific parts of text within a document.</answer>
+	</question>
+	<question>
+		<text>39. How do you create an accordion-style collapsible content in HTML?</text>
+		<answer>You can use JavaScript and CSS to create an accordion effect where clicking on a header expands or collapses its corresponding content section.</answer>
+	</question>
+	<question>
+		<text>40. What is the purpose of the &lt;ruby&gt; and &lt;rt&gt; tags?</text>
+		<answer>The &lt;ruby&gt; and &lt;rt&gt; tags are used for displaying annotations or pronunciation guides for East Asian languages.</answer>
+	</question>
+</questions>

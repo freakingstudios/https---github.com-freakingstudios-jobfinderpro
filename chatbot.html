@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chatbot</title>
+  <style>
+    #chatbox {
+      width: 300px;
+      height: 300px;
+      overflow: auto;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Chatbot</h1>
+  <div id="chatbox"></div>
+  <input type="text" id="userInput" placeholder="Enter your message..." />
+  <button onclick="sendMessage()">Send</button>
+
+  <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+  <script>
+    var excelFilePath = "database.xlsx";
+
+    // Load the Excel file and get the responses sheet
+    var responsesSheet;
+    var fileReader = new FileReader();
+    fileReader.onload = function(e) {
+      var data = new Uint8Array(e.target.result);
+      var workbook = XLSX.read(data, { type: 'array' });
+      responsesSheet = workbook.Sheets['Responses'];
+    };
+    fileReader.readAsArrayBuffer(excelFilePath);
+
+    function sendMessage() {
+      var userInput = document.getElementById("userInput").value;
+      document.getElementById("userInput").value = "";
+
+      displayMessage("User: " + userInput);
+
+      // Retrieve response from the Excel file
+      var botResponse = getBotResponse(userInput);
+      displayMessage("Bot: " + botResponse);
+    }
+
+    function displayMessage(message) {
+      var chatbox = document.getElementById("chatbox");
+      chatbox.innerHTML += message + "<br>";
+      chatbox.scrollTop = chatbox.scrollHeight;
+    }
+
+    function getBotResponse(userInput) {
+      if (!responsesSheet) {
+        return "I'm a simple chatbot!";
+      }
+
+      var cell = responsesSheet[userInput];
+      if (!cell) {
+        return "Sorry, I don't understand.";
+      }
+
+      return cell.v;
+    }
+  </script>
+</body>
+</html>
