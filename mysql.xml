@@ -1,94 +1,83 @@
 <?xml version="1.0" ?>
 <questions>
 	<question>
-		<text>1. What is Java? Explain its features and advantages</text>
-		<answer>Java is a high-level, object-oriented programming language developed by Sun Microsystems (now owned by Oracle). It is platform-independent and designed to have a simple and secure execution environment. Some key features of Java include automatic memory management (garbage collection), platform independence through the Java Virtual Machine (JVM), support for multithreading, and a vast standard library. Its advantages include portability, scalability, robustness, and widespread community support.</answer>
+		<text>Question 1: What is a database?</text>
+		<answer>A database is a structured collection of data stored and organized in a way that allows for efficient retrieval, modification, and management of data.</answer>
 	</question>
 	<question>
-		<text>2. What is the difference between JDK, JRE, and JVM?</text>
-		<answer>JDK (Java Development Kit): It is a software development kit that provides the tools necessary to develop, debug, and compile Java applications. It includes the JRE, Java compiler, debugger, and other development utilities.
-
-JRE (Java Runtime Environment): It is a runtime environment that provides the necessary libraries, Java Virtual Machine (JVM), and other components to run Java applications. It does not include development tools.
-
-JVM (Java Virtual Machine): It is a virtual machine that executes Java bytecode. It provides an abstraction layer between the Java application and the underlying hardware and operating system. JVM is responsible for memory management, garbage collection, and bytecode interpretation.</answer>
+		<text>Question 2: What is MySQL?</text>
+		<answer>MySQL is an open-source relational database management system (RDBMS) based on the Structured Query Language (SQL). It is widely used for managing structured data and is known for its performance, reliability, and ease of use.</answer>
 	</question>
 	<question>
-		<text>3. What are the main principles of object-oriented programming (OOP)?</text>
-		<answer>The main principles of OOP are:
-
-Encapsulation: It is the process of bundling data and methods into a single unit (object) and hiding the internal details from the outside world.
-
-Inheritance: It allows the creation of new classes (derived classes) based on existing classes (base or parent classes), inheriting their attributes and behaviors.
-
-Polymorphism: It refers to the ability of an object to take on multiple forms. It allows methods to be overridden in subclasses and objects of different classes to be treated as objects of a common superclass.
-
-Abstraction: It is the process of simplifying complex systems by breaking them down into smaller, more manageable units. It involves creating abstract classes and interfaces to define common behaviors and attributes.
-
-Association: It represents a relationship between two or more objects. It can be one-to-one, one-to-many, or many-to-many.
-
-Composition: It is a special form of association where one class is composed of other classes. The composed classes cannot exist independently of the main class.
-
-Aggregation: It is another form of association where one class is composed of other classes, but the composed classes can exist independently.</answer>
+		<text>Question 3: What is a primary key?</text>
+		<answer>A primary key is a unique identifier for each record in a table. It ensures that each record can be uniquely identified and provides a way to enforce data integrity by preventing duplicate or null values in the key field.</answer>
 	</question>
 	<question>
-		<text>4. What is the difference between ArrayList and LinkedList?</text>
-		<answer>ArrayList is implemented as a resizable array and provides fast access to elements, while LinkedList is implemented as a doubly-linked list and provides efficient insertion and deletion operations.</answer>
+		<text>Question 4: What is a foreign key?</text>
+		<answer>A foreign key is a field in one table that refers to the primary key in another table. It establishes a relationship between the two tables and enforces referential integrity, ensuring that the values in the foreign key match the values in the primary key.</answer>
 	</question>
 	<question>
-		<text>5. What is the difference between equals() and == in Java?</text>
-		<answer>The equals() method is used to compare the content of two objects for equality, while == is used to compare the memory addresses of two objects.</answer>
+		<text>Question 5: What is a view?</text>
+		<answer>A view is a virtual table that is derived from the result of a SQL query. It does not physically store any data but presents data from one or more tables in a structured manner. Views can be used to simplify complex queries, provide data security, and encapsulate complex logic.</answer>
 	</question>
 	<question>
-		<text>6. What is the difference between final, finally, and finalize in Java?</text>
-		<answer>final is used to declare a constant variable, a method that cannot be overridden, or a class that cannot be inherited.
-finally is used in exception handling to specify a block of code that will be executed regardless of whether an exception is thrown or not.
-finalize is a method called by the garbage collector before reclaiming the memory occupied by an object.</answer>
+		<text>Question 6: What is normalization?</text>
+		<answer>Normalization is the process of organizing data in a database to eliminate redundancy and dependency problems. It involves breaking down a table into multiple tables and establishing relationships between them to minimize data duplication and maintain data integrity.</answer>
 	</question>
 	<question>
-		<text>7. What is a constructor? How is it different from a method?</text>
-		<answer>
-A constructor is a special method used to initialize objects. It has the same name as the class and does not have a return type. It is automatically called when an object is created. Unlike a method, constructors cannot be called explicitly and are not inherited.</answer>
+		<text>Question 7: What is an index?</text>
+		<answer>An index is a data structure that improves the speed of data retrieval operations on a database table. It works like the index of a book, allowing the database to quickly locate specific data based on the indexed columns. Indexes can significantly enhance query performance.</answer>
 	</question>
 	<question>
-		<text>8. What is the static keyword in Java?</text>
-		<answer>The static keyword is used to define class-level variables and methods that can be accessed without creating an instance of the class. 
-
-Static members are associated with the class rather than with specific instances.</answer>
+		<text>Question 8: What is a stored procedure?</text>
+		<answer>A stored procedure is a set of pre-compiled SQL statements stored in the database. It can be called and executed multiple times, providing a way to encapsulate and reuse database logic. Stored procedures enhance performance, security, and modularity of database applications.</answer>
 	</question>
 	<question>
-		<text>9. What is the difference between method overloading and method overriding?</text>
-		<answer>Method overloading is when multiple methods in the same class have the same name but different parameters. Method overriding occurs when a subclass provides its own implementation of a method defined in its superclass.</answer>
+		<text>Question 9: What is a trigger?</text>
+		<answer>A trigger is a database object that automatically executes a set of SQL statements in response to specific data modifications (inserts, updates, or deletes) on a table. Triggers are often used to enforce complex business rules, maintain data integrity, or perform audit logging.</answer>
 	</question>
 	<question>
-		<text>10. What are access modifiers in Java?</text>
-		<answer>Access modifiers determine the accessibility or visibility of classes, methods, and variables. 
-
-Java has four access modifiers: public, protected, private, and the default (no modifier). They control the level of access from different parts of the program.</answer>
+		<text>Question 10: What is a transaction?</text>
+		<answer>A transaction is a logical unit of work that consists of one or more database operations. It follows the ACID (Atomicity, Consistency, Isolation, Durability) properties, ensuring that all operations within a transaction are completed successfully or rolled back if any failure occurs.</answer>
 	</question>
 	<question>
-		<text>11. What is the difference between an abstract class and an interface?</text>
-		<answer>An abstract class can have both concrete methods and abstract methods, while an interface can only have abstract methods.
-
- A class can implement multiple interfaces, but it can only extend one abstract class.</answer>
+		<text>Question 11: What is the difference between INNER JOIN and LEFT JOIN?</text>
+		<answer>INNER JOIN returns only the matching rows from both tables based on the join condition, whereas LEFT JOIN returns all the rows from the left (first) table and the matching rows from the right (second) table. If there is no match, NULL values are included for the columns of the right table.</answer>
 	</question>
 	<question>
-		<text>12. What is the this keyword in Java?</text>
-		<answer>The this keyword is a reference to the current object within a class. It can be used to access instance variables and methods or invoke another constructor in the same class.</answer>
+		<text>Question 12: What is the difference between CHAR and VARCHAR data types?</text>
+		<answer>CHAR is a fixed-length character data type that stores a specific number of characters, padding the remaining space with spaces. VARCHAR is a variable-length character data type that stores a variable number of characters, using only the required storage space without padding.</answer>
 	</question>
 	<question>
-		<text>13. What is the purpose of the static block?
-</text>
-		<answer>The static block is used to initialize static variables or perform one-time initialization of a class.
-
- It is executed when the class is loaded into memory and is executed only once.</answer>
+		<text>Question 13: What is the difference between UNION and UNION ALL?</text>
+		<answer>UNION combines the result sets of two or more SELECT statements, eliminating duplicate rows. UNION ALL also combines the result sets but retains all rows, including duplicates. UNION performs additional processing to remove duplicate rows, making it slower than UNION ALL.</answer>
 	</question>
 	<question>
-		<text>14. What is the difference between == and .equals() when comparing objects?</text>
-		<answer>The == operator compares the memory addresses of two objects, while the .equals() method compares the content or value of the objects. .equals() can be overridden to provide custom equality comparison for objects.</answer>
+		<text>Question 14: What is the difference between DELETE and TRUNCATE?</text>
+		<answer>DELETE removes rows from a table based on specified conditions and generates undo logs for possible rollback. TRUNCATE removes all rows from a table without generating undo logs, and it cannot be rolled back. TRUNCATE is faster than DELETE but cannot be used with a WHERE clause.</answer>
 	</question>
 	<question>
-		<text>15. What is the transient keyword in Java?
-</text>
-		<answer>The transient keyword is used to indicate that a variable should not be serialized when an object is converted to a byte stream. It is commonly used for variables that contain sensitive or unnecessary information.</answer>
+		<text>Question 15: How can you backup and restore a MySQL database?</text>
+		<answer>To backup a MySQL database, you can use the mysqldump command-line utility or tools like phpMyAdmin. To restore a backup, you can use the mysql command-line client or tools like phpMyAdmin to execute the SQL statements from the backup file.</answer>
+	</question>
+	<question>
+		<text>Question 16: How do you change the data type of a column in a table?</text>
+		<answer>You can use the ALTER TABLE statement with the MODIFY clause to change the data type of a column in a table. For example: ALTER TABLE table_name MODIFY column_name new_data_type;</answer>
+	</question>
+	<question>
+		<text>Question 17: How do you add a new column to an existing table?</text>
+		<answer>You can use the ALTER TABLE statement with the ADD COLUMN clause to add a new column to an existing table. For example: ALTER TABLE table_name ADD COLUMN new_column_name data_type;</answer>
+	</question>
+	<question>
+		<text>Question 18: How do you find the number of rows in a table?</text>
+		<answer>You can use the SELECT COUNT(*) statement to retrieve the number of rows in a table. For example: SELECT COUNT(*) FROM table_name;</answer>
+	</question>
+	<question>
+		<text>Question 19: How do you sort the result set in descending order?</text>
+		<answer>You can use the ORDER BY clause with the DESC keyword to sort the result set in descending order. For example: SELECT * FROM table_name ORDER BY column_name DESC;</answer>
+	</question>
+	<question>
+		<text>Question 20: How do you calculate the average value of a column?</text>
+		<answer>You can use the AVG() function in conjunction with the SELECT statement to calculate the average value of a column. For example: SELECT AVG(column_name) FROM table_name;</answer>
 	</question>
 </questions>

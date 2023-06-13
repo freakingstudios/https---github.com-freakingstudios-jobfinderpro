@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<questions>
+	<question>
+		<text>Question 1: Write a query to fetch all records from a table named &quot;employees&quot;.</text>
+		<answer>SELECT * FROM employees;</answer>
+	</question>
+	<question>
+		<text>Question 2: Write a query to fetch the distinct values from a column named &quot;city&quot; in a table named &quot;customers&quot;.</text>
+		<answer>SELECT DISTINCT city FROM customers;</answer>
+	</question>
+	<question>
+		<text>Question 3: Write a query to count the number of rows in a table named &quot;orders&quot;.</text>
+		<answer>SELECT COUNT(*) FROM orders;</answer>
+	</question>
+	<question>
+		<text>Question 4: Write a query to find the average salary of all employees in a table named &quot;employees&quot;.</text>
+		<answer>SELECT AVG(salary) FROM employees;</answer>
+	</question>
+	<question>
+		<text>Question 5: Write a query to fetch the top 5 highest salaries from a table named &quot;employees&quot;.</text>
+		<answer>SELECT * FROM employees ORDER BY salary DESC LIMIT 5;</answer>
+	</question>
+	<question>
+		<text>Question 6: Write a query to update the email address of a customer with ID 100 in a table named &quot;customers&quot;.</text>
+		<answer>UPDATE customers SET email = 'newemail@example.com' WHERE customer_id = 100;</answer>
+	</question>
+	<question>
+		<text>Question 7: Write a query to calculate the total sales amount for each product in a table named &quot;sales&quot;.</text>
+		<answer>SELECT product_id, SUM(sales_amount) FROM sales GROUP BY product_id;</answer>
+	</question>
+	<question>
+		<text>Question 8: Write a query to find the names of customers who have placed orders in a table named &quot;customers&quot; and &quot;orders&quot;.</text>
+		<answer>SELECT customers.name FROM customers INNER JOIN orders ON customers.customer_id = orders.customer_id;</answer>
+	</question>
+	<question>
+		<text>Question 9: Write a query to find the highest salary among female employees in a table named &quot;employees&quot;.</text>
+		<answer>SELECT MAX(salary) FROM employees WHERE gender = 'Female';</answer>
+	</question>
+	<question>
+		<text>Question 10: Write a query to find the average age of employees in a table named &quot;employees&quot;.</text>
+		<answer>SELECT AVG(DATEDIFF(CURDATE(), birth_date)/365) FROM employees;</answer>
+	</question>
+	<question>
+		<text>Question 11: Write a query to fetch the employees whose names start with the letter 'A' in a table named &quot;employees&quot;.</text>
+		<answer>SELECT * FROM employees WHERE name LIKE 'A%';</answer>
+	</question>
+	<question>
+		<text>Question 12: Write a query to find the customers who have not placed any orders in a table named &quot;customers&quot; and &quot;orders&quot;.</text>
+		<answer>SELECT customers.name FROM customers LEFT JOIN orders ON customers.customer_id = orders.customer_id WHERE orders.customer_id IS NULL;</answer>
+	</question>
+	<question>
+		<text>Question 13: Write a query to calculate the total sales amount for each month in a table named &quot;sales&quot;.</text>
+		<answer>SELECT DATE_FORMAT(sale_date, '%Y-%m') AS month, SUM(sales_amount) FROM sales GROUP BY month;</answer>
+	</question>
+	<question>
+		<text>Question 14: Write a query to find the second-highest salary in a table named &quot;employees&quot;.</text>
+		<answer>SELECT salary FROM employees ORDER BY salary DESC LIMIT 1, 1;</answer>
+	</question>
+	<question>
+		<text>Question 15: Write a query to fetch the employees whose hire date is within the last 6 months in a table named &quot;employees&quot;.</text>
+		<answer>SELECT * FROM employees WHERE hire_date &gt;= DATE_SUB(CURDATE(), INTERVAL 6 MONTH);</answer>
+	</question>
+	<question>
+		<text>Question 16: Write a query to calculate the total number of customers in each city in a table named &quot;customers&quot;.</text>
+		<answer>SELECT city, COUNT(*) FROM customers GROUP BY city;</answer>
+	</question>
+	<question>
+		<text>Question 17: Write a query to find the products that have never been sold in a table named &quot;products&quot; and &quot;sales&quot;.</text>
+		<answer>SELECT products.product_name FROM products LEFT JOIN sales ON products.product_id = sales.product_id WHERE sales.product_id IS NULL;</answer>
+	</question>
+	<question>
+		<text>Question 18: Write a query to fetch the top 3 customers with the highest total order amount in a table named &quot;customers&quot; and &quot;orders&quot;.</text>
+		<answer>SELECT customers.name, SUM(orders.order_amount) AS total_amount FROM customers INNER JOIN orders ON customers.customer_id = orders.customer_id GROUP BY customers.name ORDER BY total_amount DESC LIMIT 3;</answer>
+	</question>
+	<question>
+		<text>Question 19: Write a query to find the employees who have the same salary in a table named &quot;employees&quot;.</text>
+		<answer>SELECT salary, COUNT() FROM employees GROUP BY salary HAVING COUNT() &gt; 1;</answer>
+	</question>
+	<question>
+		<text>Question 20: Write a query to calculate the total number of orders for each customer in a table named &quot;customers&quot; and &quot;orders&quot;.</text>
+		<answer>SELECT customers.name, COUNT(orders.order_id) AS total_orders FROM customers LEFT JOIN orders ON customers.customer_id = orders.customer_id GROUP BY customers.name</answer>
+	</question>
+</questions>
