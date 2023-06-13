@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<questions>
+	<question>
+		<text>1. Create a CSS class called &quot;highlight&quot; that changes the background color to yellow.</text>
+		<answer>css .highlight { background-color: yellow; }</answer>
+	</question>
+	<question>
+		<text>2. Write CSS code to center align text within a div element.</text>
+		<answer>css div { text-align: center; }</answer>
+	</question>
+	<question>
+		<text>3. Create a CSS class called &quot;underline&quot; that adds an underline to text.</text>
+		<answer>css .underline { text-decoration: underline; }</answer>
+	</question>
+	<question>
+		<text>4. Write CSS code to give a 2px solid red border to all paragraph elements.</text>
+		<answer>css p { border: 2px solid red; }</answer>
+	</question>
+	<question>
+		<text>5. Create a CSS class called &quot;rotate&quot; that rotates an element by 45 degrees.</text>
+		<answer>css .rotate { transform: rotate(45deg); }</answer>
+	</question>
+	<question>
+		<text>6. Write CSS code to set the font size of all headings (h1 to h6) to 24px.</text>
+		<answer>css h1, h2, h3, h4, h5, h6 { font-size: 24px; }</answer>
+	</question>
+	<question>
+		<text>7. Create a CSS class called &quot;opacity&quot; that sets the opacity of an element to 0.5.</text>
+		<answer>css .opacity { opacity: 0.5; }</answer>
+	</question>
+	<question>
+		<text>8. Write CSS code to give a background image to a div element.</text>
+		<answer>css div { background-image: url('image.jpg'); }</answer>
+	</question>
+	<question>
+		<text>9. Create a CSS class called &quot;uppercase&quot; that converts text to uppercase.</text>
+		<answer>css .uppercase { text-transform: uppercase; }</answer>
+	</question>
+	<question>
+		<text>10. Write CSS code to give a box shadow of 2px 2px 5px #888888 to a button element.</text>
+		<answer>css button { box-shadow: 2px 2px 5px #888888; }</answer>
+	</question>
+	<question>
+		<text>11. Create a CSS class called &quot;italic&quot; that sets the font style of text to italic.</text>
+		<answer>css .italic { font-style: italic; }</answer>
+	</question>
+	<question>
+		<text>12. Write CSS code to set the width of an image to 300px and height to auto.</text>
+		<answer>css img { width: 300px; height: auto; }</answer>
+	</question>
+	<question>
+		<text>13. Create a CSS class called &quot;background-gradient&quot; that sets a linear gradient background from red to blue.</text>
+		<answer>css .background-gradient { background: linear-gradient(red, blue); }</answer>
+	</question>
+	<question>
+		<text>14. Write CSS code to give a hover effect to a link, changing its color to red.</text>
+		<answer>css a:hover { color: red; }</answer>
+	</question>
+	<question>
+		<text>15. Create a CSS class called &quot;center-block&quot; that centers a block-level element horizontally using margin.</text>
+		<answer>css .center-block { margin-left: auto; margin-right: auto; }</answer>
+	</question>
+	<question>
+		<text>16. Write CSS code to hide bullets in an unordered list (ul).</text>
+		<answer>css ul { list-style-type: none; }</answer>
+	</question>
+	<question>
+		<text>17. Create a CSS class called &quot;box-sizing-border&quot; that sets the box-sizing property to border-box.</text>
+		<answer>css .box-sizing-border { box-sizing: border-box; }</answer>
+	</question>
+	<question>
+		<text>18. Write CSS code to set the color of visited links to green.</text>
+		<answer>css a:visited { color: green; }</answer>
+	</question>
+	<question>
+		<text>19. Create a CSS class called &quot;text-overflow&quot; that adds an ellipsis (...) to text that overflows its container.</text>
+		<answer>css .text-overflow { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }</answer>
+	</question>
+	<question>
+		<text>20. Write CSS code to give a transition effect to an image, changing its opacity over 1 second when hovered over.</text>
+		<answer/>
+	</question>
+</questions>

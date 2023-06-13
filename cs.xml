@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<questions>
+	<question>
+		<text>1. What is CSS?</text>
+		<answer>CSS stands for Cascading Style Sheets. It is a style sheet language used for describing the presentation of a document written in HTML or XML.</answer>
+	</question>
+	<question>
+		<text>2. What are the different ways to include CSS in a web page?</text>
+		<answer>CSS can be included in a web page using three methods: inline, internal, and external.</answer>
+	</question>
+	<question>
+		<text>3. What is the difference between classes and IDs in CSS?</text>
+		<answer>Classes are used to style multiple elements with the same class attribute, while IDs are used to style a specific element with a unique ID attribute. IDs have a higher specificity than classes.</answer>
+	</question>
+	<question>
+		<text>4. What is the box model in CSS?</text>
+		<answer>The box model is a concept in CSS that describes how elements are rendered on a web page. It consists of content, padding, border, and margin.</answer>
+	</question>
+	<question>
+		<text>5. What is the difference between margin and padding?</text>
+		<answer>Margin is the space outside an element's border, while padding is the space between an element's content and its border.</answer>
+	</question>
+	<question>
+		<text>6. What is the difference between display: none and visibility: hidden?</text>
+		<answer>The display: none property removes an element from the document flow, making it invisible and not taking up any space. The visibility: hidden property hides an element but still occupies space in the document flow.</answer>
+	</question>
+	<question>
+		<text>7. What are the different types of CSS selectors?</text>
+		<answer>CSS selectors include element selectors, class selectors, ID selectors, attribute selectors, descendant selectors, child selectors, adjacent sibling selectors, and pseudo-classes.</answer>
+	</question>
+	<question>
+		<text>8. What is the difference between inline and block elements?</text>
+		<answer>Inline elements do not start on a new line and only take up as much width as necessary, while block elements start on a new line and occupy the full width available.</answer>
+	</question>
+	<question>
+		<text>9. What is the &quot;float&quot; property used for in CSS?</text>
+		<answer>The &quot;float&quot; property is used to specify whether an element should float to the left, right, or not at all. Floating elements are taken out of the normal flow and can interact with text and other elements differently.</answer>
+	</question>
+	<question>
+		<text>10. What is a CSS pseudo-class?</text>
+		<answer>A CSS pseudo-class is a keyword that is added to a selector to select a specific state or element. Examples include :hover, :active, :focus, and :first-child.</answer>
+	</question>
+	<question>
+		<text>11. What is the &quot;box-sizing&quot; property used for?</text>
+		<answer>The &quot;box-sizing&quot; property is used to control how the total width and height of an element are calculated. The default value is &quot;content-box&quot;, but it can be changed to &quot;border-box&quot; to include padding and border in the specified width and height.</answer>
+	</question>
+	<question>
+		<text>12. What is the CSS &quot;z-index&quot; property used for?</text>
+		<answer>The &quot;z-index&quot; property is used to specify the stacking order of positioned elements. Elements with a higher &quot;z-index&quot; value will appear in front of elements with a lower value.</answer>
+	</question>
+	<question>
+		<text>13. What is the &quot;clearfix&quot; hack?</text>
+		<answer>The &quot;clearfix&quot; hack is a technique used to clear floated elements within a container. It ensures that the container expands to include the floated elements, preventing layout issues.</answer>
+	</question>
+	<question>
+		<text>14. What is the difference between absolute and relative positioning in CSS?</text>
+		<answer>Absolute positioning positions an element relative to its nearest positioned ancestor, or the document if no ancestor is positioned. Relative positioning positions an element relative to its normal position, and it still occupies space in the normal flow.</answer>
+	</question>
+	<question>
+		<text>15. What is the CSS &quot;transition&quot; property used for?</text>
+		<answer>The &quot;transition&quot; property is used to specify the transition effects when a CSS property changes. It allows for smooth animations and gradual changes in CSS values over a specified duration.</answer>
+	</question>
+	<question>
+		<text>16. What is the difference between inline and inline-block elements?</text>
+		<answer>Inline elements do not start on a new line and only take up as much width as necessary, but they do not allow for height or vertical margin/padding. Inline-block elements start on a new line and allow for height and vertical margin/padding.</answer>
+	</question>
+	<question>
+		<text>17. What is the &quot;nth-child&quot; selector used for?</text>
+		<answer>The &quot;nth-child&quot; selector is used to select elements based on their position within a parent element. It allows you to target specific elements in a group, such as the first, last, or every nth element.</answer>
+	</question>
+	<question>
+		<text>18. What is the CSS &quot;opacity&quot; property used for?</text>
+		<answer>The &quot;opacity&quot; property is used to specify the transparency of an element. A value of 1 is fully opaque, while a value of 0 is fully transparent. Values between 0 and 1 create varying degrees of transparency.</answer>
+	</question>
+	<question>
+		<text>19. What is the difference between &quot;em&quot; and &quot;rem&quot; units in CSS?</text>
+		<answer>The &quot;em&quot; unit is relative to the font-size of its nearest parent, while the &quot;rem&quot; unit is relative to the font-size of the root element (usually the &lt;html&gt; element).</answer>
+	</question>
+	<question>
+		<text>20. What is the CSS &quot;max-width&quot; property used for?</text>
+		<answer>The &quot;max-width&quot; property is used to set the maximum width of an element. If the content exceeds this width, the element will be horizontally scrollable.</answer>
+	</question>
+</questions>
