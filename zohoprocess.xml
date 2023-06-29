@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<questions>
+	<question>
+		<text>1. Written Test
+</text>
+		<answer>The interview round usually starts with the written test. However, because of pandemic situations, it became an online test. For experienced candidates, this first round is optional. The round lasts approximately 90 minutes, and the candidate must answer multiple Multiple Choice Questions (MCQs). The round will contain around 20-30 questions from general aptitude and programming aptitude. The general aptitude questions usually cover 30% to 50%. The remaining questions you can expect from C programming.
+
+Important Topics that you should cover for both general aptitude and programming aptitude:
+
+For General Aptitude:
+
+Time 
+Work
+Profit &amp; Loss
+Speed and Distance
+Percentage
+Ratios and Proportions
+Average
+For programming aptitude:
+
+Nested Loops
+Recursions
+Flowcharts
+Pointers</answer>
+	</question>
+	<question>
+		<text>2. Basic Programming</text>
+		<answer>A laptop will be given to you if it is a face-to-face interview. Virtual interviews will require you to be proctored in a one-on-one meeting employing the Zoho Meet application. You will need to share your screen with video and answer the questions in chat.
+
+Questions will focus on programming basics like Java, and C++. This round can be cleared if you have a solid understanding of loops, recursions, and basic data structures.</answer>
+	</question>
+	<question>
+		<text>3. Advanced Programming
+</text>
+		<answer>This round tests your ability to advanced programming skills to solve problems and your good command of data structure and algorithms. You will be required to solve one problem in this round within an allotted time of 90 minutes.</answer>
+	</question>
+	<question>
+		<text>4. Technical HR
+</text>
+		<answer>You may not be asked for a technical HR round based on how you performed in previous rounds. You will eliminate this round if you performed well in the prior rounds. This round's questions will focus on:
+
+Data Structures
+The given scenario should be approached
+Database concepts
+And some logical puzzles</answer>
+	</question>
+	<question>
+		<text>5. General HR
+</text>
+		<answer>If you have reached the General HR interview round, it is a positive indication that you have successfully cleared previous stages. The General HR interview tends to be more informal and may cover a range of topics, including:
+
+Family history: The interviewer may ask about your family background to get to know you better.
+Hobbies: Questions about your hobbies can help showcase your interests and provide insights into your personality.
+Why Zoho?: You may be asked why you are interested in working specifically for Zoho. This is an opportunity to express your motivation and alignment with the company's values and goals.
+Location preference: The interviewer may inquire about your preferences regarding the location of your work. It is important to be honest and clear about your preferences and any flexibility you may have.
+During the General HR round, you will also have the opportunity to ask questions. Feel free to ask any questions you may have about Zoho, the company culture, career growth opportunities, or any other relevant topics. This demonstrates your interest and engagement in the interview process.
+
+Remember to approach the General HR interview with confidence and enthusiasm. Be prepared to engage in a conversation and provide thoughtful responses. Good luck!</answer>
+	</question>
+</questions>

@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<questions>
+	<question>
+		<text>1. Online Assessment Test 
+</text>
+		<answer>The first round of the selection process includes the following sections:
+
+Logical Analytical Reasoning:
+
+Data sufficiency
+Visual reasoning
+Syllogism
+Coding-decoding
+Analogy
+(Difficulty level: Easy to Moderate)
+Quantitative Aptitude:
+
+Permutations and combinations
+Time and speed
+Probability
+Percentages
+Ratio and proportion
+Related topics
+(Difficulty level: Moderate to Hard)
+Verbal Ability:
+
+Paragraph completion
+Synonyms-antonyms
+Para-jumbles
+Sentence completion
+Etc.
+(Difficulty level: Easy to Moderate)</answer>
+	</question>
+	<question>
+		<text>2. Technical Round
+</text>
+		<answer>In the technical round, candidates can expect questions based on their resumes and the specific role they have applied for. It is important to have a sound knowledge of the following areas:
+
+Algorithms and data structures
+Proficiency in at least one programming language
+Object-Oriented Programming (OOPS)
+Database Management Systems (DBMS)
+Computer Networks (CN)
+Operating Systems (OS)
+Coding and problem-solving skills
+Puzzles and aptitude-based questions
+Awareness of emerging technologies in your areas of interest
+Additionally, be prepared to answer questions about your past professional or internship experiences, highlighting your role and contributions to those projects.</answer>
+	</question>
+	<question>
+		<text>3. HR Interview Round
+</text>
+		<answer>The HR interview round is designed to assess your overall personality and suitability for the role at Infosys. During this round, you can expect questions on various aspects, including:
+
+Your skills and areas of expertise
+Hobbies and extracurricular activities
+Reasons for applying to Infosys
+Educational background and qualifications
+Expectations and aspirations for the position you are applying for
+The HR interview provides an opportunity for the interviewer to gauge your fit within the organization and assess how well your skills and aspirations align with the role. It is important to be prepared to discuss these topics confidently and express your genuine interest in the position.</answer>
+	</question>
+</questions>

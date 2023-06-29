@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<questions>
+	<question>
+		<text>Online Assessment Round
+
+</text>
+		<answer>The recruitment process at Wipro begins with an online assessment test, which serves as the first step. Candidates who successfully clear this round are then called for the subsequent technical interview rounds. The online assessment test consists of three sections:
+
+1. Aptitude: This section is further divided into three parts:
+   - Quantitative Aptitude: Tests the candidate's mathematical abilities, covering topics such as time, speed, distance, number series, interest, probability, ratios, percentages, and more.
+   - Logical Reasoning: Assesses the candidate's critical and logical thinking skills. Questions may include coding, decoding, series, analogy, visual reasoning, data sufficiency, data interpretation, data arrangements, logical word sequence, statements and inferences, and inequalities.
+   - Verbal Ability: Evaluates the candidate's English language proficiency. Questions may focus on error-spotting, sentence improvement, sentence completion, para-jumbles, and other related topics.
+
+2. Essay Writing: In this section, candidates are required to write a 200-400 word essay on a given topic or scenario. The essay should demonstrate excellent planning, proper phrasing (grammar, punctuation, spelling), and a good vocabulary. This section is conducted in a computer-based format.
+
+3. Coding: Candidates can choose to take the coding assessment in Java, C, C++, or Python. Proficiency in at least one programming language is required, with a strong understanding of programming fundamentals. Generally, two or three coding questions are given, covering topics such as decision making, looping, functions, arrays, and strings.
+
+It's important to note that the online assessment round may be skipped for experienced candidates, depending on company requirements and job profiles.
+
+Overall, the online assessment serves as an initial screening phase to evaluate candidates' aptitude, logical reasoning, verbal abilities, writing skills, and programming knowledge. Successful candidates in this round progress to the next stages of the interview process.</answer>
+	</question>
+	<question>
+		<text>Technical Interview Round
+
+</text>
+		<answer>Once candidates pass the online assessment round, they will proceed to face-to-face technical interviews. During the technical interview, your technical skills and knowledge relevant to the position you have applied for will be evaluated. The questions will assess your problem-solving abilities and numerical reasoning skills. Interviewers are interested not only in your technical knowledge but also in how you approach problems, communicate your thought process, and demonstrate personal qualities.
+
+The technical face-to-face interview is a crucial step in the hiring process. It is important to have a solid understanding of computer fundamentals such as Object-Oriented Programming (OOPS), Database Management Systems (DBMS), Computer Networks (CN), Operating Systems (OS), and more. You should be able to explain these concepts to the interviewer. Additionally, being familiar with at least one programming language is necessary. While you don't need to be fluent in all programming languages, it is recommended to have proficiency in one language such as C++, Java, or Python. You may also be asked to write code during the interview to demonstrate your programming skills. 
+
+Your problem-solving abilities will also be evaluated, and the interviewer may present you with technical problems or scenarios to assess your approach in finding solutions. Additionally, you can expect questions about your previous projects and professional experiences. The interviewer may inquire about your role, the technologies you used, and the level of success achieved in your projects.
+
+The number of technical interviews conducted will vary based on your performance in previous rounds, the specific job profile, and the company's requirements. Each interview serves as an opportunity to showcase your technical knowledge, problem-solving skills, and the relevance of your past experiences to the position you are applying for.</answer>
+	</question>
+	<question>
+		<text>HR interview round
+
+</text>
+		<answer>HR interviews are conducted by every organization to assess candidates' personality, strengths, weaknesses, and ability to handle the role, as well as to determine their fit for the position.
+The HR round takes place after clearing the technical interview.
+Questions about Wipro's history, creation, goals, principles, and organizational structure may be asked.
+Review your resume to ensure all relevant information is included and accurate.
+Prepare to respond to questions based on your resume, being confident and truthful in your answers.
+Common HR interview questions can include:
+Please tell me about yourself.
+What are your expectations for this role?
+Why are you interested in working for Wipro?
+Are you willing to relocate to different parts of India?
+Tell me about your internships and projects.
+Why are you looking for a job change? (Avoid criticizing your current employer, instead focus on seeking career growth.)</answer>
+	</question>
+</questions>

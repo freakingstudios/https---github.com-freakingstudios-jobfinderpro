@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<questions>
+	<question>
+		<text>Online Assessment Test:
+</text>
+		<answer>The first round of the Accenture interview process is considered challenging and acts as an eliminator round.
+Accenture's online assessment tests evaluate the cognitive function and abilities of the candidates.
+The round consists of questions from Quantitative Aptitude, Logical Reasoning, and Verbal Ability.
+In this round, candidates need to answer a specified number of questions within the given time frame.</answer>
+	</question>
+	<question>
+		<text>Technical Interview:
+</text>
+		<answer>If you pass the online test, you will proceed to the technical interview round.
+The technical interview primarily assesses the candidate's coding and problem-solving skills.
+Basic knowledge of data structures, algorithms, and computer science subjects like OS, DBMS, CN is important to excel in the technical interview.
+The technical interview focuses on evaluating the candidate's proficiency in specific areas based on the job role applied for.
+Experienced candidates or those applying for critical roles may have to undergo multiple rounds of technical interviews.</answer>
+	</question>
+	<question>
+		<text>HR Interview:
+</text>
+		<answer>The HR Interview is the final round to select a candidate as an employee at Accenture since it helps to determine a candidate’s personality and other related aspects. Here the questions can be asked are of a varied range starting from your introduction, qualification, experience, hobbies, strengths &amp; weaknesses, salary expectations, etc. In this round, company-related questions on Accenture can also be asked. While the other interview rounds at Accenture gauge your skills and accomplishments, the objective of an HR interview is to judge your personality, check your background, and ability to handle the job role, and decide whether you are the right fit for the company.</answer>
+	</question>
+</questions>
