@@ -3,9 +3,9 @@
 	<question>
 		<text>1. What is Python? How is it different from other programming languages?</text>
 		<answer>Python is a high-level programming language known for its simplicity and readability. It is an interpreted language, which means the code is executed line by line without the need for compilation. Python emphasizes code readability and uses whitespace indentation to define code blocks. Unlike other languages like C++ or Java, Python does not use semicolons to terminate statements.</answer>
-	</question>
+	</question> 
 	<question>
-		<text>2. What are the key features of Python?</text>
+		<text>2.  What are the key features of Python?</text>
 		<answer>Key features of Python include: Simple and easy-to-read syntax, Interpreted language, Dynamic typing, Multi-paradigm (supports object-oriented, procedural, and functional programming), Rich standard library, Extensive community support.</answer>
 	</question>
 	<question>
